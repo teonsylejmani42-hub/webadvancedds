@@ -1,0 +1,30 @@
+P{
+    color: red;
+}
+
+article{
+    color: blue;
+    background-color: aquamarine;
+    text-decoration: underline;
+}
+
+article{
+    color: white;
+    background-color: red;
+}
+
+article ~ p{
+    padding: 20px;
+    color: blueviolet;
+
+}
+
+article + p {
+    background-color: orange;
+}
+
+input :out-of-range{
+    border: red;
+    color: red;
+}
+
